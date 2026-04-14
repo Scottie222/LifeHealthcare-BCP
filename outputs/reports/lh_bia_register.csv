@@ -1,0 +1,9 @@
+Process ID,Process Name,Department,Criticality,RTO (hours),RPO (hours),MTPD (hours),Financial Impact/Day (ZAR),Patient Safety Impact,Manual Fallback Available,Impacted June 2020,Actual Downtime (days)
+P-001,Patient Admissions System,Hospital Operations,Critical,4,1,24,"R 850,000",HIGH — admission delays affect emergency throughput,Yes,YES,28
+P-002,Patient Billing & Claims,Finance,Critical,8,4,48,"R 1,200,000","MEDIUM — delayed billing, no direct patient harm",Yes,YES,28
+P-003,Email & Communication,IT / All Departments,High,2,1,8,"R 150,000",MEDIUM — affects internal coordination,Yes,YES,28
+P-004,Electronic Patient Records,Clinical / IT,Critical,1,0,4,"R 2,000,000",CRITICAL — loss of records endangers patient safety,Yes,NO,0
+P-005,Supplier Invoice Processing,Procurement,Medium,48,24,120,"R 300,000",LOW — supply chain risk if prolonged,Yes,YES,28
+P-006,Financial Reporting,Finance,Medium,72,24,168,"R 500,000",LOW — regulatory/investor risk,No,YES,28
+P-007,ICU & Theatre Management,Clinical,Critical,0,0,0,"R 5,000,000",CRITICAL — direct patient life risk,Yes,NO,0
+P-008,HR & Payroll Systems,Human Resources,Medium,48,24,120,"R 200,000",LOW — staff payment delays,Yes,YES,14
