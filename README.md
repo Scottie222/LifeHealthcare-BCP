@@ -1,7 +1,14 @@
-# Life Healthcare Group – Business Continuity & Disaster Recovery Tool
+Click README.md in Explorer, select all, delete, paste this, then Ctrl+S:
+markdown# Life Healthcare Group – Business Continuity & Disaster Recovery Tool
 ## ISO 22301:2019 | Based on the Real June 2020 Ransomware Attack
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue) ![ISO 22301](https://img.shields.io/badge/ISO-22301:2019-teal) ![POPIA](https://img.shields.io/badge/Regulation-POPIA-green) ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+
+🌐 **Live Site:** [https://scottie222.github.io/LifeHealthcare-BCP/](https://scottie222.github.io/LifeHealthcare-BCP/)
+
+> Play the interactive **CISO Tabletop Simulator** — navigate the real June 2020 ransomware attack as it unfolds across 66 hospitals. 5 scenarios. Scored against Life Healthcare's actual response.
+
+---
 
 A fully Python-based Business Continuity Planning and Disaster Recovery tool built around the **real June 2020 ransomware attack** on Life Healthcare Group — South Africa's second-largest private hospital operator. This project demonstrates hands-on BCP/DR skills including Business Impact Analysis, ISO 22301 documentation, DR runbooks and an interactive tabletop exercise simulator.
 
@@ -117,6 +124,8 @@ LifeHealthcare-BCP/
 │   └── charts/
 │       ├── lh_bia_chart.png
 │       └── lh_recovery_timeline.png
+├── docs/
+│   └── index.html
 ├── run_bcp.py
 ├── requirements.txt
 ├── .gitignore
@@ -146,7 +155,7 @@ python run_bcp.py --sim
 | **8.4** | Business continuity plans | Full ISO 22301-aligned BCP/DR Plan document |
 | **8.5** | Exercise and testing | Interactive tabletop simulator with scoring and reporting |
 | **9.1** | Monitoring and measurement | Recovery timeline analysis and RTO breach analysis |
-| **10.1** | Nonconformity and improvement | Lessons learned section from real incident |
+| **10.1** | Nonconformity and improvement | Lessons learned section directly from the real incident |
 
 ---
 
@@ -184,5 +193,5 @@ python run_bcp.py --sim
 
 ---
 
-*Built by Bakithi Scott Ngcampalala | Junior Security Administrator @ Open Vantage*  
+*Built by Bakithi Scott Ngcampalala | Junior Security Administrator @ Open Vantage*
 *LinkedIn: https://www.linkedin.com/in/bakithi-scott-ngcampalala-0051a4105*
